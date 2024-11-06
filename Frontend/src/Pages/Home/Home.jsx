@@ -18,6 +18,18 @@ const Home = () => {
             <div className="flex  gap-2  " style={{ minWidth: "fit-content" }}>
               {/* Each section has a fixed width */}
               <div className="w-[20rem] lg:w-96 grid gap-y-4 bg-slate-100 p-2 h-[70vh] overflow-y-scroll scrollbar scrollbar-thumb-blue-700  scrollbar-track-sky-200">
+                <div className="flex justify-between">
+                  <div className="flex items-center gap-x-2">
+                    <div className="">
+                      <p className="text-xs font-medium text-gray-900 truncate max-w-[20ch]">
+                        Incomplete
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2 bg-gray-300 rounded px-2">
+                    <div className="text-gray-500 text-sm font-medium">0</div>
+                  </div>
+                </div>
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
@@ -57,6 +69,18 @@ const Home = () => {
                 />
               </div>
               <div className="w-[20rem] lg:w-96 grid gap-y-4 bg-slate-100 p-2 h-[70vh] overflow-y-scroll scrollbar scrollbar-thumb-blue-700  scrollbar-track-sky-200">
+                <div className="flex justify-between">
+                  <div className="flex items-center gap-x-2">
+                    <div className="">
+                      <p className="text-xs font-medium text-gray-900 truncate max-w-[20ch]">
+                        To Do
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2 bg-gray-300 rounded px-2">
+                    <div className="text-gray-500 text-sm font-medium">0</div>
+                  </div>
+                </div>
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
@@ -104,6 +128,18 @@ const Home = () => {
                 />
               </div>
               <div className="w-[20rem] lg:w-96 grid gap-y-4 bg-slate-100 p-2 h-[70vh] overflow-y-scroll scrollbar scrollbar-thumb-blue-700  scrollbar-track-sky-200">
+                <div className="flex justify-between">
+                  <div className="flex items-center gap-x-2">
+                    <div className="">
+                      <p className="text-xs font-medium text-gray-900 truncate max-w-[20ch]">
+                        Doing
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2 bg-gray-300 rounded px-2">
+                    <div className="text-gray-500 text-sm font-medium">0</div>
+                  </div>
+                </div>
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
@@ -151,6 +187,18 @@ const Home = () => {
                 />
               </div>
               <div className="w-[20rem] lg:w-96 grid gap-y-4 bg-slate-100 p-2 h-[70vh] overflow-y-scroll scrollbar scrollbar-thumb-blue-700  scrollbar-track-sky-200">
+                <div className="flex justify-between">
+                  <div className="flex items-center gap-x-2">
+                    <div className="">
+                      <p className="text-xs font-medium text-gray-900 truncate max-w-[20ch]">
+                        Under Review
+                      </p>
+                    </div>
+                  </div>
+                  <div className="flex items-center gap-x-2 bg-gray-300 rounded px-2">
+                    <div className="text-gray-500 text-sm font-medium">0</div>
+                  </div>
+                </div>
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
@@ -188,7 +236,21 @@ const Home = () => {
               natus quas? Quia esse qui architecto ullam illum."
                 />
               </div>
-              <div className="w-96 grid gap-y-4 bg-slate-200 p-2">
+              <div className="w-[20rem] lg:w-96 grid gap-y-4 bg-slate-100 p-2 h-[70vh] overflow-y-scroll scrollbar scrollbar-thumb-blue-700  scrollbar-track-sky-200">
+              <div className="flex justify-between">
+        <div className="flex items-center gap-x-2">
+          
+          <div className="">
+            <p className="text-xs font-medium text-gray-900 truncate max-w-[20ch]">
+            Complete
+            </p>
+          </div>
+        </div>
+        <div className="flex items-center gap-x-2 bg-gray-300 rounded px-2">
+         
+          <div className="text-gray-500 text-sm font-medium">0</div>
+        </div>
+      </div>
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
@@ -207,6 +269,15 @@ const Home = () => {
               laudantium at, exercitationem a modi velit non fugiat, et id,
               natus quas? Quia esse qui architecto ullam illum."
                 />{" "}
+                <Card
+                  name="Sadik Istiak"
+                  c_name="Client Name"
+                  image_src_c={image_src}
+                  image_src_p={image_src_p}
+                  content="  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+              laudantium at, exercitationem a modi velit non fugiat, et id,
+              natus quas? Quia esse qui architecto ullam illum."
+                />
                 <Card
                   name="Sadik Istiak"
                   c_name="Client Name"
